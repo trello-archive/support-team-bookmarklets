@@ -18,7 +18,7 @@ javascript:(function(){
 		for (var i = checklists.length - 1; i >= 0; i--) {
 			checklist = checklists[i];
 			var idChecklist = checklist.id;
-			for (var j = checklist.checkItems.length - 1; j >= 0; j--) {
+			for (var j = 0; j < checklist.checkItems.length; j++) {
 				
 				checkItem = checklist.checkItems[j];
 				checkItems.push({
